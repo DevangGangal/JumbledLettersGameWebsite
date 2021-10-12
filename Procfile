@@ -1,1 +1,1 @@
-  web: waitress-serve --port=8000 jw_project.wsgi:application
+  web: waitress-serve --port=$PORT jw_project.wsgi:application
