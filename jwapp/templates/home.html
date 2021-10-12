@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Jumbled App by Devang</title>
+	<style>
+		*{font-size:30px;font-family:calibri;}
+		body{background-color:powderblue;}
+		h1{background-color:black;color:white;}
+	</style>
+</head>
+<body>
+<center>
+	<h1>Jumbled Words App</h1>
+	<form action="{% url 'check' %}">
+		<h1>{{word}}</h1>
+		<input type="text" name="ans" required autocomplete="off">
+		<br><br>
+		<input type="submit" value="Check">
+	</form>
+</center>
+</body>
+</html>
